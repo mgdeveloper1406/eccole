@@ -13,6 +13,6 @@ keywords:
 - Lecons1
 ---
 
-# Lecons1
+# Lecons
 
 It works! =)
