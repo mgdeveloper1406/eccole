@@ -1,0 +1,9 @@
+---
+title: Music
+folder: music
+tags: sections
+order: 1
+permalink: pages/music/index.json
+---
+{% assign itemsList = collections[folder] | sort: 'data.pubDate' | reverse -%}
+{% include 'pages-list.json.liquid' %}
